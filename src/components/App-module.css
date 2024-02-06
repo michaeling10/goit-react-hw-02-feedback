@@ -1,0 +1,13 @@
+ul,
+li {
+  list-style: none;
+}
+
+.generalContainer {
+  margin-left: 50px;
+}
+
+.buttonsList {
+  display: flex;
+  flex-direction: column;
+}
