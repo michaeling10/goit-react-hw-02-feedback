@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import Section from './Section';
 import Statistics from './Statistics';
 import FeedbackOptions from './FeedbackOptions';
-import styles from './App-module.css';
 
 export const App = () => {
   const [feedbackStatus, setFeedbackStatus] = useState({
@@ -29,7 +28,7 @@ export const App = () => {
   };
 
   return (
-    <div className={styles.generalContainer}>
+    <div className={'generalContainer'}>
       <Section title="Please Leave Feedback">
         <FeedbackOptions
           options={['good', 'neutral', 'bad']}

@@ -1,0 +1,9 @@
+.buttonsList {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.buttonListItem {
+  margin-right: 5px;
+}
